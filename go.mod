@@ -43,9 +43,9 @@ require (
 	github.com/nats-io/go-nats v1.7.2
 	github.com/nats-io/nats-server/v2 v2.1.6
 	github.com/nats-io/nats-streaming-server v0.17.0
-	github.com/nats-io/not.go v0.0.0-20190215212113-f31ff89f78fd
+	github.com/nats-io/not.go v0.0.0-20190215212113-f31ff89f78fd // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
-	github.com/opentracing/opentracing-go v1.1.0
+	github.com/opentracing/opentracing-go v1.1.0 // indirect
 	github.com/outbrain/golib v0.0.0-20180830062331-ab954725f502
 	github.com/pingcap/dm v0.0.0-00010101000000-000000000000
 	github.com/pingcap/parser v3.0.11+incompatible
@@ -65,8 +65,7 @@ require (
 	google.golang.org/grpc v1.28.0 // indirect
 )
 
-replace github.com/siddontang/go-mysql => github.com/ffffwh/go-mysql v0.0.0-20201125093656-67dc9957b4da
-
+replace github.com/siddontang/go-mysql => github.com/ffffwh/go-mysql v0.0.0-20210319034545-a522cdbc2039
 //replace github.com/Sirupsen/logrus => github.com/sirupsen/logrus v1.4.2
 
 replace github.com/araddon/qlbridge => github.com/ffffwh/qlbridge v0.0.0-20181026023605-fc2d5205
